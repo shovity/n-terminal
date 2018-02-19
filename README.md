@@ -13,7 +13,7 @@ $ sudo sh ./uninstall
 
 ## Manual
 ```sh
-$ n [ command; [command] ]
+$ n [ command [;command] ]
 ```
 ## Example
 ![](https://github.com/shovity/n-terminal/blob/master/docs/ezgif-3-c5cfe878ba.gif?raw=true)
