@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Example
+# run ls command and open and focus to new window
+# n; ls
+# run ll command then open and run ls command
+# ll; n ls
+
+if [ "$1" == "" ]; then
+    gnome-terminal
+else
+    gnome-terminal -x $SHELL -ic "$* ; zsh"
+fi
